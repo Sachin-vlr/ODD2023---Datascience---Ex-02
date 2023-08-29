@@ -170,3 +170,48 @@ newdata2.shape
 
 # height_weight.csv
 
+![image](https://github.com/Sachin-vlr/ODD2023---Datascience---Ex-02/assets/113497666/7a6ad63d-f945-4bc0-9cdd-d9688ca3bb49)
+
+```python
+dataset.describe()
+```
+
+![image](https://github.com/Sachin-vlr/ODD2023---Datascience---Ex-02/assets/113497666/4e972165-0a04-40d6-8e4a-37f390b2737b)
+
+```python
+dataset.info()
+```
+
+![image](https://github.com/Sachin-vlr/ODD2023---Datascience---Ex-02/assets/113497666/c394ddda-c278-4225-8269-7169dad94bf9)
+
+# BOXPLOT BEFORE REMOVING OUTLIERS
+
+![image](https://github.com/Sachin-vlr/ODD2023---Datascience---Ex-02/assets/113497666/77903a42-a43b-4450-95e5-ac3a8e8414c4)
+
+# HEIGHT OUTLIERS
+
+![image](https://github.com/Sachin-vlr/ODD2023---Datascience---Ex-02/assets/113497666/4e38da2d-71f9-490c-b71b-f4a9c3ab4eba)
+
+# DATASET AFTER REMOVING HEIGHT OUTLIERS
+
+![image](https://github.com/Sachin-vlr/ODD2023---Datascience---Ex-02/assets/113497666/7d8c6621-4fdb-48cf-9603-d7586622adf0)
+
+# BOXPLOT AFTER REMOVING HEIGHT OUTLIERS
+
+![image](https://github.com/Sachin-vlr/ODD2023---Datascience---Ex-02/assets/113497666/883194c5-c898-4a07-a041-e8be56956824)
+
+# WEIGHT OUTLIERS
+
+![image](https://github.com/Sachin-vlr/ODD2023---Datascience---Ex-02/assets/113497666/77f87270-5e66-4e93-a4af-0ab3655398bb)
+
+# DATASET AFTER REMOVING WEIGHT OUTLIERS
+
+![image](https://github.com/Sachin-vlr/ODD2023---Datascience---Ex-02/assets/113497666/f2c97d88-d462-480c-aa9e-6c7c82015845)
+
+# BOXPLOT AFTER REMOVING WEIGHT OUTLIERS
+
+![image](https://github.com/Sachin-vlr/ODD2023---Datascience---Ex-02/assets/113497666/56610523-3cb3-4ee3-ab8f-5283f756b841)
+
+# RESULT:
+The given datasets are read and outliers are detected and are removed using IQR and z-score methods.
+
